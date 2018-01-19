@@ -26,9 +26,9 @@ int main() {
 
 	printf("b == \"123\" ? %s \n", b == "123" ? "true" : "false" );
 
-	printf("a 的地址 0x%x\n", (unsigned long) a);
-	printf("\"123\" 的地址 0x%x\n", (unsigned long) "123");
-	printf("b 的地址 0x%x\n", (unsigned long) b);
+	printf("a 的地址 0x%x\n", a);
+	printf("\"123\" 的地址 0x%x\n", "123");
+	printf("b 的地址 0x%x\n", b);
 
 	{
 		char * m = (char *) malloc(128);
